@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../assets/icon.svg">
+    <title>{ TITLE }</title>
+    <link rel="stylesheet" href="../styles/article.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
+    </style>
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{ TITLE }">
+    <meta property="og:url" content="{ URL }">
+    <meta property="og:description" content="{ DESCRIPTION }">
+    <meta property="article:author" content="{ NAME }">
+
+    <!-- Twitter/X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{ TITLE }" />
+    <meta name="twitter:description" content="{ DESCRIPTION }" />
+</head>
+
+<body>
+    <div class="app">
+        <h1 class="font-semibold text-4xl my-sm">{ TITLE }</h1>
+        <p class="author my-sm">Written by <img class="avatar" src="{ AVATAR_URL }"><a href="{ PROFILE_URL }"
+                class="decorator-none" target="_blank" rel="noopener noreferrer"><span class="mention">@{ NAME }</span></a></p>
+        <p class="date my-sm text-sm">{ DATE }</p>
+        <hr>
+        <div>
+            { CONTENT }
+        </div>
+        <br>
+        <hr>
+        <footer class="flex-row flex-center">
+            <p class="disclaimer text-sm">ScratchExplore is not affiliated with Scratch, the Scratch Team, or the
+                Scratch Foundation</p>
+        </footer>
+    </div>
+</body>
+
+</html>
