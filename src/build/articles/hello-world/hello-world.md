@@ -8,7 +8,7 @@ I've been on Scratch for several years now, and I have only seen the explore pag
 
 Originally I set out to solve this by creating my own explore page. It was known as ScratchExplore (confusing, considering this site is ExploreScratch), and overall it worked quite well. I always wanted to merge this with a larger site with a broader goal. Eventually I considered making a news site for Scratch, where Scratchers could write articles about happenings in the Scratch community.
 
-In additional to news articles, I planned to help give creative quality projects the attention they deserve, and host other Scratch related tools. This idea was the beginning of ExploreScratch.
+In addition to news articles, I planned to help give creative quality projects the attention they deserve, and host other Scratch related tools. This idea was the beginning of ExploreScratch.
 
 # Vision
 
