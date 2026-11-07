@@ -1,0 +1,75 @@
+:root {
+    --background-color: #000000;
+    --white: #ffffff;
+    --less-white: #ffffff;
+    --muted: #767676;
+    --ui-light: #E0AAFF;
+    --ui-dark: #4A1867;
+    --brand-dark: #7A34CE;
+    --ui-divider: #242424;
+    --brand-light: #C798FF;
+    --font-family: "Google Sans Flex", sans-serif;
+
+    --text-xs: 0.75rem;   /* 12px */
+    --text-sm: 0.875rem;  /* 14px */
+    --text-md: 1rem;      /* 16px */
+    --text-lg: 1.125rem;  /* 18px */
+    --text-xl: 1.25rem;   /* 20px */
+    --text-2xl: 1.5rem;   /* 24px */
+    --text-3xl: 1.875rem; /* 30px */
+    --text-4xl: 2.25rem;  /* 36px */
+    --text-5xl: 3rem;     /* 48px */
+}
+
+/* Fonts */
+
+.font-thin { font-weight: 100; }
+.font-extralight { font-weight: 200; }
+.font-light { font-weight: 300; }
+.font-regular { font-weight: 400; }
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+.font-extrabold { font-weight: 800; }
+.font-black { font-weight: 900; }
+.italic { font-style: italic; }
+
+.m-none { margin: 0; }
+
+/* Vertical */
+.my-3xs { margin-bottom: 0.125rem; } /* 2px */
+.my-2xs { margin-bottom: 0.25rem; }  /* 4px */
+.my-xs  { margin-bottom: 0.5rem; }   /* 8px */
+.my-sm  { margin-bottom: 0.75rem; }  /* 12px */
+.my-md  { margin-bottom: 1rem; }     /* 16px */
+.my-lg  { margin-bottom: 1.25rem; }  /* 20px */
+.my-xl  { margin-bottom: 1.5rem; }   /* 24px */
+.my-2xl { margin-bottom: 2rem; }     /* 32px */
+.my-3xl { margin-bottom: 2.5rem; }   /* 40px */
+.my-4xl { margin-bottom: 3rem; }     /* 48px */
+.my-5xl { margin-bottom: 4rem; }     /* 64px */
+
+/* Horizontal */
+.mx-3xs { margin-inline: 0.125rem; } /* 2px */
+.mx-2xs { margin-inline: 0.25rem; }  /* 4px */
+.mx-xs  { margin-inline: 0.5rem; }   /* 8px */
+.mx-sm  { margin-inline: 0.75rem; }  /* 12px */
+.mx-md  { margin-inline: 1rem; }     /* 16px */
+.mx-lg  { margin-inline: 1.25rem; }  /* 20px */
+.mx-xl  { margin-inline: 1.5rem; }   /* 24px */
+.mx-2xl { margin-inline: 2rem; }     /* 32px */
+.mx-3xl { margin-inline: 2.5rem; }   /* 40px */
+.mx-4xl { margin-inline: 3rem; }     /* 48px */
+.mx-5xl { margin-inline: 4rem; }     /* 64px */
+
+/* Text Sizes */
+
+.text-xs  { font-size: var(--text-xs); }
+.text-sm  { font-size: var(--text-sm); }
+.text-md  { font-size: var(--text-md); }
+.text-lg  { font-size: var(--text-lg); }
+.text-xl  { font-size: var(--text-xl); }
+.text-2xl { font-size: var(--text-2xl); }
+.text-3xl { font-size: var(--text-3xl); }
+.text-4xl { font-size: var(--text-4xl); }
+.text-5xl { font-size: var(--text-5xl); }
