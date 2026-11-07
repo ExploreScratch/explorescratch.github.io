@@ -1,0 +1,92 @@
+.project {
+    position: relative;
+    padding: 0.8rem;
+    outline: 1px solid var(--ui-divider);
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+
+.project-image {
+    position: relative;
+    border-radius: 0.6rem;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 480 / 360;
+    margin-bottom: 0.3rem;
+    z-index: 999;
+}
+
+.profile-image {
+    aspect-ratio: 1 / 1;
+    height: 2.4rem;
+    width: 2.4rem;
+    border-radius: 0.6rem;
+    z-index: 999;
+}
+
+.project-information {
+    margin-left: 0.6rem;
+    z-index: 1;
+}
+
+.project-title {
+    font-size: var(--text-sm);
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+    color: var(--white);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.project-author {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    z-index: 1;
+}
+
+.profile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    z-index: 1;
+}
+
+.background {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+
+    -webkit-filter: blur(5px);
+
+            filter: blur(5px);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+
+    pointer-events: none;
+}
+
+.image-link {
+    display: inline-block;
+    line-height: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.a-no-decoration {
+    text-decoration: none;
+}
