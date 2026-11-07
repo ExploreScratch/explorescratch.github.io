@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/icon.svg">
+    <title>ExploreScratch</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
+    </style>
+    <!-- Open Graph -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="ExploreScratch"/>
+    <meta property="og:description"
+        content="ExploreScratch is an open-source experimental news, informational, and resource site for Scratch"/>
+    <meta property="og:url" content="https://explorescratch.github.io/explore.html"/>
+
+    <!-- Twitter/X -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="ExploreScratch"/>
+    <meta name="twitter:description"
+        content="ExploreScratch is an open-source experimental news, informational, and resource site for Scratch"/>
+</head>
+
+<body>
+    <div class="app">
+        <header class="flex-row flex-center header">
+            <a href="https://explorescratch.github.io/" class="image-link"><img src="./assets/icon.svg" alt="ExploreScratch Logo"
+                    class="icon"></a>
+            <span class="brand-primary font-medium text-2xl">Explore</span><span
+                class="brand-secondary font-medium text-2xl">Scratch</span>
+        </header>
+        <hr>
+        <div class="flex-column">
+            <div class="first-row">
+                <!-- Interactive Item -->
+                <section class="top-interactive">
+                    <p class="label">Daily Trivia</p>
+                    <p class="text-3xl font-semibold m-none my-md">What year did Scratch release?</p>
+                    <div class="grid">
+                        <div class="option text-xl flex-row flex-center font-medium">2003</div>
+                        <div class="option text-xl flex-row flex-center font-medium">2001</div>
+                        <div class="option text-xl flex-row flex-center font-medium">2009</div>
+                        <div class="option text-xl flex-row flex-center font-medium">2020</div>
+                    </div>
+                </section>
+                <!-- Featured Article -->
+                <section class="top-article">
+                    <p class="label">Featured Article</p>
+                    <div id="featured-article"></div>
+                </section>
+            </div>
+
+            <!-- Featured Articles -->
+            <div>
+                <p class="label">Featured Articles</p>
+                <section class="articles" id="article-list">
+                </section>
+            </div>
+
+            <!-- Featured Projects -->
+            <div>
+                <div class="flex-row">
+                    <p class="label">Featured Projects</p>
+                    <a href="./explore.html" class="view-more">
+                        <p class="label">View More →</p>
+                    </a>
+                </div>
+                <section class="projects" id="projects">
+                </section>
+            </div>
+
+            <!-- Featured Podcasts -->
+            <div>
+                <div class="flex-row">
+                    <p class="label">Featured Podcasts</p>
+                    <a href="https://scratch.mit.edu/studios/51663430/" target="_blank" rel="noopener noreferrer" class="view-more">
+                        <p class="label">View More →</p>
+                    </a>
+                </div>
+                <section class="projects" id="podcasts"></section>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <footer class="flex-row flex-center">
+            <p class="disclaimer text-sm">ScratchExplore is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation</p>
+        </footer>
+    </div>
+    <script type="module" src="./scripts/homepage.js"></script>
+</body>
+
+</html>
