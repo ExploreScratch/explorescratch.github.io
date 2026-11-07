@@ -1,0 +1,123 @@
+@import "./constants.css";
+
+/* Main */
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--white);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.app {
+    margin-top: 5rem;
+    width: 40%;
+}
+
+.flex-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.flex-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.flex-center {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.mention {
+    color: var(--ui-light);
+    background-color: var(--ui-dark);
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    border-radius: 0.2rem;
+}
+
+.avatar {
+    aspect-ratio: 2 / 2;
+    width: 1.2rem;
+    border-radius: 0.2rem;
+}
+
+.author {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0.3rem;
+    color: var(--muted)
+}
+
+hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid var(--ui-divider);
+}
+
+.date {
+    color: var(--muted)
+}
+
+.strikethrough {
+    text-decoration: line-through;
+    text-decoration-color: inherit;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: inherit;
+}
+
+.decorator-none {
+    text-decoration: none;
+}
+
+.link {
+    color: var(--ui-light);
+}
+
+a {
+    text-decoration-color: var(--ui-light);
+}
+
+.disclaimer {
+    color: var(--muted);
+}
+
+@media (width <= 768px) {
+    .app {
+        width: 90%;
+    }
+}
