@@ -1,0 +1,126 @@
+@import "./constants.css";
+@import "./project.css";
+
+/* Main */
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--white);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.app {
+    width: 70%;
+}
+
+.flex-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.flex-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.flex-center {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.mention {
+    color: var(--ui-light);
+    background-color: var(--ui-dark);
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    border-radius: 0.2rem;
+}
+
+.projects {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.header {
+    padding: 0.3rem;
+}
+
+.brand-primary {
+    color: var(--brand-dark);
+}
+
+.brand-secondary {
+    color: var(--brand-light);
+}
+
+hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid var(--ui-divider);
+}
+
+.icon {
+    width: 3rem;
+    margin-right: 0.5rem;
+}
+
+.button {
+    margin-top: 1rem;
+    font-family: var(--font-family);
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+    color: var(--brand-dark);
+    background-color: transparent;
+    border: 1px solid var(--brand-dark);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: var(--ui-divider);
+    cursor: pointer;
+}
+
+.highlighted {
+    color: var(--brand-dark);
+    font-weight: 700;
+}
+
+.information {
+    color: var(--muted);
+    margin-top: 0px;
+    margin-bottom: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.disclaimer {
+    color: var(--muted);
+}
