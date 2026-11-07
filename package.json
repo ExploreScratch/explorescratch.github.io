@@ -1,0 +1,9 @@
+{
+  "name": "ExploreScratch",
+  "version": "1.0",
+  "description": "ExploreScratch is an open-source experimental news and informational site for Scratch",
+  "scripts": {
+    "build": "node src/build/build.js"
+  },
+  "type": "module"
+}
