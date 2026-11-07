@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/icon.svg">
+    <title>ExploreScratch</title>
+    <link rel="stylesheet" href="./styles/explore.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
+    </style>
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ExploreScratch Explore"/>
+    <meta property="og:description"
+        content="Explore page for Scratch designed to feature recent high-quality projects!"/>
+    <meta property="og:url" content="https://explorescratch.github.io/explore.html"/>
+
+    <!-- Twitter/X -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="ExploreScratch Explore"/>
+    <meta name="twitter:description" content="Explore page for Scratch designed to feature high-quality projects"/>
+</head>
+
+<body>
+    <div class="app">
+        <header class="flex-row flex-center header">
+            <a href="https://explorescratch.github.io/" class="image-link"><img src="./assets/icon.svg"
+                    alt="ExploreScratch Logo" class="icon"></a>
+            <span class="brand-primary font-medium text-2xl">Explore</span><span
+                class="brand-secondary font-medium text-2xl">Scratch</span>
+        </header>
+        <hr>
+        <div class="flex-column flex-center">
+            <p class="text-4xl my-sm font-regular text-center">Explore <span class="highlighted">Quality</span> Projects
+            </p>
+            <p class="font-medium information text-center">Our algorithm selects quality projects from all communities
+                on Scratch to
+                show you everything that's
+                going on!</p>
+        </div>
+        <section class="projects" id="projects"></section>
+        <div class="flex-row flex-center">
+            <button class="button text-md font-medium" id="load">View More</button>
+        </div>
+        <br>
+        <hr>
+        <footer class="flex-row flex-center">
+            <p class="disclaimer text-sm">ScratchExplore is not affiliated with Scratch, the Scratch Team, or the
+                Scratch Foundation</p>
+        </footer>
+    </div>
+    <script type="module" src="./scripts/explore.js"></script>
+</body>
+
+</html>
