@@ -1,0 +1,37 @@
+{
+  "component": {
+    "type": 17,
+    "components": [
+      {
+        "type": 9,
+        "components": [
+          {
+            "type": 10,
+            "content": "## ExploreScratch Explore"
+          },
+          {
+            "type": 10,
+            "content": "Experimental explore page for Scratch, aiming to recommend high-quality projects"
+          }
+        ],
+        "accessory": {
+          "type": 11,
+          "media": {
+            "url": "https://explorescratch.github.io/assets/icon.png"
+          }
+        }
+      },
+      {
+        "type": 1,
+        "components": [
+          {
+            "type": 2,
+            "style": 5,
+            "label": "Link",
+            "url": "https://explorescratch.github.io/explore.html"
+          }
+        ]
+      }
+    ]
+  }
+}
