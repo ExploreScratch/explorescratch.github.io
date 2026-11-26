@@ -11,6 +11,41 @@
         @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
     </style>
 
+    <!-- Cool Discord Thing -->
+    <script id="discord:component-embed" type="application/json">
+        {
+            "component": {
+                "type": 17,
+                "components": [
+                    {
+                        "type": 9,
+                        "components": [
+                            {
+                                "type": 10,
+                                "content": "## { TITLE }\nBy [{ NAME }]({ PROFILE_URL })"
+                            },
+                            {
+                                "type": 10,
+                                "content": "{ DESCRIPTION }"
+                            }
+                        ]
+                    },
+                    {
+                        "type": 1,
+                        "components": [
+                            {
+                                "type": 2,
+                                "style": 5,
+                                "label": "Article",
+                                "url": "{ URL }"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    </script>
+
     <!-- Open Graph -->
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="{ TITLE }"/>
