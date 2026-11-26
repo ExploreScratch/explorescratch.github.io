@@ -54,5 +54,5 @@ for (const article of articles) {
 
 fs.writeFileSync(
     path.join(dirname, '../public/data/articles.json'),
-    JSON.stringify(metadata.sort((a, b) => b.date - a.date), null, 2)
+    JSON.stringify(metadata.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()), null, 2)
 );
