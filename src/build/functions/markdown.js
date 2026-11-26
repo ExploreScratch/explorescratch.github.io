@@ -28,7 +28,7 @@ export default function markdown(text) {
         .replace(/'/g, '&#039;')
 
         // Targets urls and [text](url) structures
-        .replace(/\[(.+)\]\((https?:\/\/[^\s]+)\)|(https?:\/\/[^\s]+)/g, (match, text, href, url) => {
+        .replace(/\[(.+?)\]\((https?:\/\/[^\s]+?)\)|(https?:\/\/[^\s]+?)/g, (match, text, href, url) => {
             if (url) {
                 return `<a href='${url}' target="_blank" rel="noopener noreferrer"><span class="link">${url}</span></a>`;
             } else {
